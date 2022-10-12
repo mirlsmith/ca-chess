@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: "Arial Narrow", "Arial", sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+.black {
+    background-color: gray;
+}
+.white {
+    background-color: rgb(236, 245, 245);
+}
+
+.selected {
+    outline: 5px solid rgb(82, 72, 72);
+}
+
+.mark {
+    background-color: rgba(248, 248, 184, 0.7);
+}
+
+.center {
+    margin: auto;
+    border: solid white;
+}
+.game-board td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    cursor: grab;
+   
+}
+
+td{
+    transition: background 1s;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    font-size:medium;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
